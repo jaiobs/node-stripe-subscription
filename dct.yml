@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  payment_service:
+    env_file:
+      - '.env.test'
+    command: npm run test

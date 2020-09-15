@@ -1,0 +1,8 @@
+if (!process.env.NODE_ENV) require('dotenv').config();
+
+module.exports = {
+  config: 'config/db',
+  'migrations-path': 'config/db/sequelize/migrate',
+  'seeders-path': 'config/db/sequelize/seeds',
+  'models-path': 'src/models'
+};
