@@ -27,14 +27,14 @@ If everything is good. Then you can access all the services,
 Run
 
 ```
- docker-compose run web npx sequelize model:create --name Test --attributes name:string
+ docker-compose run subscription npx sequelize model:create --name Test --attributes name:string
 ```
 
 ## Swagger Documentation
 
 Swagger documentation available for each services.
 
-- **subscription** - http://localhost:3000/api/docs
+- http://localhost:3000/api/docs
 
 ## Features
 
