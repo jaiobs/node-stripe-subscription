@@ -18,7 +18,10 @@ Run
 bash start_dev.sh
 ```
 
-If everything is good. Then you can access all the services,
+To start docker container
+```
+docker-compose up
+```
 
 - Can access api server via http://localhost:3000/api
 
